@@ -17,5 +17,5 @@ curl -X POST "http://localhost:8000/payment/create" \
     "user_uid": "test_user_123",
     "amount": 3.00,
     "description": "Заказ №73",
-    "return_url": "https://your-site.com/payment/success"
+    "return_url": "https://clipcleaner.app/"
   }'
