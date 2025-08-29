@@ -20,6 +20,7 @@ class PaymentCreate(BaseModel):
     amount: float
     description: str
     return_url: str
+    idempotence_key: str
 
 class PaymentResponse(BaseModel):
     payment_url: str
